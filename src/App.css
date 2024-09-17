@@ -1,0 +1,15 @@
+.emoji {
+  cursor: pointer;
+  font-size: 2rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+  color: gray;
+}
+
+.emoji-selected {
+  color: orange;
+  transform: scale(1.2);
+}
+
+.rating {
+  display: flex;
+}
